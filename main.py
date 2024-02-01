@@ -1,9 +1,9 @@
 import csv
 from pathlib import Path  
 
-from coh import cash_on_hand
+from cash_on_hand import cash_on_hand
 from overheads import find_highest_overhead  
-from profit_loss import profit_and_loss
+from profit_and_loss import profit_and_loss
 
 # Specify the output file path
 output_file_path = "Summary_report.txt"
